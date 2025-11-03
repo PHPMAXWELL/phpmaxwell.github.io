@@ -247,7 +247,7 @@ sup {
 }
 
 a {
-  color: var(--bs-link-color);
+  color: #055160 ;
   text-decoration: underline;
 }
 a:hover {
@@ -653,6 +653,12 @@ progress {
     max-width: 720px;
   }
 }
+@media (max-width: 768px) {
+  #puzzleme{
+    display: none;
+  }
+}
+
 @media (min-width: 992px) {
   .container-lg, .container-md, .container-sm, .container {
     max-width: 960px;
@@ -8037,7 +8043,7 @@ textarea.form-control-lg {
 /* rtl:end:remove */
 .text-primary {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+  color: #055160 !important;
 }
 
 .text-secondary {
@@ -8128,7 +8134,7 @@ textarea.form-control-lg {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #055160 !important;
 }
 
 .bg-secondary {
